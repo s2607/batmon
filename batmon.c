@@ -39,5 +39,6 @@ int
 main()
 {
 //	percentbar("battery: ",getbat(),80);
+	printf("%d",getbat());
 	return 0;
 }
