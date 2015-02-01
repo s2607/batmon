@@ -20,7 +20,7 @@ getbat()
 	else
 		die("Can't open sysfs battery device, check permisions\n");
 }
-void
+/*void
 percentbar(char *message,int n,int w)
 {
 	int i=0;
@@ -34,10 +34,10 @@ percentbar(char *message,int n,int w)
 		else
 			message +=1;
 		if(	
-}
+}*/
 int
 main()
 {
-	percentbar("battery: ",getbat(),80);
+//	percentbar("battery: ",getbat(),80);
 	return 0;
 }
